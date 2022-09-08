@@ -1,0 +1,76 @@
+/* Write your CSS code here. */
+.app-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.white-container {
+  background-color: #ffffff;
+  max-width: 606px;
+  width: 80%;
+  border-radius: 12px;
+  padding: 24px;
+}
+.heading {
+  margin-bottom: 20px;
+}
+.thankyou-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.love-emogi {
+  width: 60px;
+  height: 54px;
+}
+.thankyou-text {
+  text-align: center;
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 24px;
+}
+.thankyou-description {
+  text-align: center;
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 300;
+}
+.question-container {
+  display: flex;
+  flex-direction: column;
+}
+.feedback-question-heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-weight: 800;
+  font-size: 28px;
+  text-align: center;
+}
+.emogi-list {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin-top: 32px;
+  padding: 0px;
+}
+.emogi-btn {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: #ffffff;
+}
+.emogi {
+  height: 45px;
+  width: 45px;
+  margin-bottom: 16px;
+}
+.emogi-name {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
